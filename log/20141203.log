@@ -1,0 +1,156 @@
+2014-December-03@00:28:59,385 - !ERRO! - Falha ao conectar com o banco de dados. Conexão NÃO estabelecida.
+Início da mensagem de erro:
+java.sql.SQLException: path to 'Z:\documentos\Aplicativos\sgd\sgd.db': 'Z:\' does not exist
+	at org.sqlite.Conn.open(Conn.java:103)
+	at org.sqlite.Conn.<init>(Conn.java:57)
+	at org.sqlite.JDBC.createConnection(JDBC.java:77)
+	at org.sqlite.JDBC.connect(JDBC.java:64)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.copel.dao.BancoDeDados.<init>(BancoDeDados.java:38)
+	at com.copel.dao.Proxy.carregar(Proxy.java:55)
+	at com.copel.sgd.bo.ContaBO.carregar(ContaBO.java:31)
+	at com.copel.sgd.fachada.SGD.carregarUsuario(SGD.java:123)
+	at com.copel.sgd.fachada.SGD$1.run(SGD.java:43)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Final da mensagem de erro.
+2014-December-03@00:28:59,447 - Erro ao carregar usuário para efetuar logon. Consulte o administrador.
+Início da mensagem de erro:
+java.lang.Exception: !ERRO! - Falha ao conectar com o banco de dados. Conexão NÃO estabelecida.
+	at com.copel.Log.adicionarEJogarExcecao(Log.java:91)
+	at com.copel.dao.BancoDeDados.<init>(BancoDeDados.java:42)
+	at com.copel.dao.Proxy.carregar(Proxy.java:55)
+	at com.copel.sgd.bo.ContaBO.carregar(ContaBO.java:31)
+	at com.copel.sgd.fachada.SGD.carregarUsuario(SGD.java:123)
+	at com.copel.sgd.fachada.SGD$1.run(SGD.java:43)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Final da mensagem de erro.
+2014-December-03@00:33:30,490 - !ERRO! - Falha ao conectar com o banco de dados. Conexão NÃO estabelecida.
+Início da mensagem de erro:
+java.sql.SQLException: path to 'Z:\documentos\Aplicativos\sgd\sgd.db': 'Z:\' does not exist
+	at org.sqlite.Conn.open(Conn.java:103)
+	at org.sqlite.Conn.<init>(Conn.java:57)
+	at org.sqlite.JDBC.createConnection(JDBC.java:77)
+	at org.sqlite.JDBC.connect(JDBC.java:64)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.copel.dao.BancoDeDados.<init>(BancoDeDados.java:38)
+	at com.copel.dao.Proxy.carregar(Proxy.java:55)
+	at com.copel.sgd.bo.ContaBO.carregar(ContaBO.java:31)
+	at com.copel.sgd.fachada.SGD.carregarUsuario(SGD.java:123)
+	at com.copel.sgd.fachada.SGD$1.run(SGD.java:43)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Final da mensagem de erro.
+2014-December-03@00:33:30,490 - Erro ao carregar usuário para efetuar logon. Consulte o administrador.
+Início da mensagem de erro:
+java.lang.Exception: !ERRO! - Falha ao conectar com o banco de dados. Conexão NÃO estabelecida.
+	at com.copel.Log.adicionarEJogarExcecao(Log.java:91)
+	at com.copel.dao.BancoDeDados.<init>(BancoDeDados.java:42)
+	at com.copel.dao.Proxy.carregar(Proxy.java:55)
+	at com.copel.sgd.bo.ContaBO.carregar(ContaBO.java:31)
+	at com.copel.sgd.fachada.SGD.carregarUsuario(SGD.java:123)
+	at com.copel.sgd.fachada.SGD$1.run(SGD.java:43)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Final da mensagem de erro.
+2014-December-03@00:35:36,445 - !ERRO! - Falha ao conectar com o banco de dados. Conexão NÃO estabelecida.
+Início da mensagem de erro:
+java.sql.SQLException: path to 'Z:\documentos\Aplicativos\sgd\sgd.db': 'Z:\' does not exist
+	at org.sqlite.Conn.open(Conn.java:103)
+	at org.sqlite.Conn.<init>(Conn.java:57)
+	at org.sqlite.JDBC.createConnection(JDBC.java:77)
+	at org.sqlite.JDBC.connect(JDBC.java:64)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.copel.dao.BancoDeDados.<init>(BancoDeDados.java:38)
+	at com.copel.dao.Proxy.carregarSimilares(Proxy.java:83)
+	at com.copel.sgd.bo.TrabalhoBO.carregarSimilares(TrabalhoBO.java:64)
+	at com.copel.sgd.fachada.Monitor.run(Monitor.java:27)
+	at java.lang.Thread.run(Unknown Source)
+Final da mensagem de erro.
+2014-December-03@00:35:36,445 - Falha ao acessar o objeto trabalho
+Início da mensagem de erro:
+java.lang.Exception: !ERRO! - Falha ao conectar com o banco de dados. Conexão NÃO estabelecida.
+	at com.copel.Log.adicionarEJogarExcecao(Log.java:91)
+	at com.copel.dao.BancoDeDados.<init>(BancoDeDados.java:42)
+	at com.copel.dao.Proxy.carregarSimilares(Proxy.java:83)
+	at com.copel.sgd.bo.TrabalhoBO.carregarSimilares(TrabalhoBO.java:64)
+	at com.copel.sgd.fachada.Monitor.run(Monitor.java:27)
+	at java.lang.Thread.run(Unknown Source)
+Final da mensagem de erro.
+2014-December-03@00:40:36,450 - !ERRO! - Falha ao conectar com o banco de dados. Conexão NÃO estabelecida.
+Início da mensagem de erro:
+java.sql.SQLException: path to 'Z:\documentos\Aplicativos\sgd\sgd.db': 'Z:\' does not exist
+	at org.sqlite.Conn.open(Conn.java:103)
+	at org.sqlite.Conn.<init>(Conn.java:57)
+	at org.sqlite.JDBC.createConnection(JDBC.java:77)
+	at org.sqlite.JDBC.connect(JDBC.java:64)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.copel.dao.BancoDeDados.<init>(BancoDeDados.java:38)
+	at com.copel.dao.Proxy.carregarSimilares(Proxy.java:83)
+	at com.copel.sgd.bo.TrabalhoBO.carregarSimilares(TrabalhoBO.java:64)
+	at com.copel.sgd.fachada.Monitor.run(Monitor.java:27)
+	at java.lang.Thread.run(Unknown Source)
+Final da mensagem de erro.
+2014-December-03@00:40:36,450 - Falha ao acessar o objeto trabalho
+Início da mensagem de erro:
+java.lang.Exception: !ERRO! - Falha ao conectar com o banco de dados. Conexão NÃO estabelecida.
+	at com.copel.Log.adicionarEJogarExcecao(Log.java:91)
+	at com.copel.dao.BancoDeDados.<init>(BancoDeDados.java:42)
+	at com.copel.dao.Proxy.carregarSimilares(Proxy.java:83)
+	at com.copel.sgd.bo.TrabalhoBO.carregarSimilares(TrabalhoBO.java:64)
+	at com.copel.sgd.fachada.Monitor.run(Monitor.java:27)
+	at java.lang.Thread.run(Unknown Source)
+Final da mensagem de erro.

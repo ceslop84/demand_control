@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl"><name>sgd</name><driver>org.sqlite.JDBC</driver><username></username><password>d971dfe9-23da-4ef4-928a-8ac8e0d0cb76</password><savePassword>true</savePassword><url>jdbc:sqlite:Z:\documentos\Aplicativos\sgd\sgd.db</url><database></database><serverAddress></serverAddress></jdbcDataAdapter>

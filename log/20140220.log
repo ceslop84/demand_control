@@ -1,0 +1,25 @@
+2014-February-20@14:51:36,396 - Falha no acesso ao banco de dados.
+Início da mensagem de erro:
+java.sql.SQLException: no such column: 'NOME'
+	at org.sqlite.RS.findColumn(RS.java:121)
+	at org.sqlite.RS.getString(RS.java:317)
+	at com.copel.mapoteca.dao.ContaDAO.listar(ContaDAO.java:134)
+	at com.copel.mapoteca.bo.ContaBO.listar(ContaBO.java:19)
+	at com.copel.mapoteca.bo.ContaBO.carregar(ContaBO.java:61)
+	at com.copel.mapoteca.fachada.JanelaPrincipal.<init>(JanelaPrincipal.java:47)
+	at com.copel.mapoteca.fachada.JanelaPrincipal$1.run(JanelaPrincipal.java:37)
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.awt.EventQueue.access$200(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.awt.EventQueue$3.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+Final da mensagem de erro.
